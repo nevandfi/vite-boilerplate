@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "paths": {
+            "/*": ["./*"]
+        },
+        "baseUrl": "./",
+        "checkJs": true,
+        "allowSyntheticDefaultImports": true,
+        "target": "esNext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "lib": ["es2015"]
+    },
+    "exclude": ["./node_modules"]
+}

@@ -1,10 +1,11 @@
 <template>
-    <h1>Homepage</h1>
+    <h1>DEFAULT</h1>
+    <slot></slot>
 </template>
 
 <script>
 export default {
-    layout: "footer-layout"
+
 }
 </script>
 

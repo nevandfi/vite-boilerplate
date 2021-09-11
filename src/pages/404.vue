@@ -1,10 +1,10 @@
 <template>
-    <h1>Homepage</h1>
+    <h1>Sorry, the page does not exist.</h1>
 </template>
 
 <script>
 export default {
-    layout: "footer-layout"
+
 }
 </script>
 
