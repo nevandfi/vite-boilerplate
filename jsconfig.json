@@ -5,11 +5,10 @@
         },
         "baseUrl": "./",
         "checkJs": true,
-        "allowSyntheticDefaultImports": true,
         "target": "esNext",
         "module": "esnext",
         "moduleResolution": "node",
-        "lib": ["es2015"]
+        "lib": ["es2015", "dom"]
     },
-    "exclude": ["./node_modules"]
+    "exclude": ["node_modules"]
 }
