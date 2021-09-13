@@ -1,27 +1,16 @@
 
-import { createStore } from "vuex";
-
-
-const state = () => ({
-    item: "My State"
+export const state = () => ({
+    
 });
 
-
-/** @type {import("vuex").MutationTree} */
-const mutations = {
+export const mutations = {
 
 }
 
-
-/** @type {import("vuex").ActionTree} */
-const actions = {
+export const actions = {
 
 }
 
-
-/** @type {import("vuex").GetterTree} */
-const getters = {
+export const getters = {
 
 }
-
-export default createStore({state, mutations, actions, getters});

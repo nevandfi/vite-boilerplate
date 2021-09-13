@@ -7,7 +7,7 @@
  */
 
 export const kebabToPascal = kebabString => {
-    const clearAndUppercase = kebabString => kebabString.replace(/\-/g, '').toUpperCase();
+    const clearAndUppercase = dashedString => dashedString.replace(/\-/g, '').toUpperCase();
     const pascalString = kebabString.replace(/(^\w|-\w)/g, clearAndUppercase);
     return pascalString;
 }
@@ -21,7 +21,7 @@ export const kebabToPascal = kebabString => {
  */
 
 export const kebabtoCamel = kebabString => {
-    const clearAndUppercase = kebabString => kebabString.replace(/\-/g, '').toUpperCase();
+    const clearAndUppercase = dashedString => dashedString.replace(/\-/g, '').toUpperCase();
     const camelString = kebabString.replace(/\-\w/g, clearAndUppercase);
     return camelString;
 }

@@ -24,5 +24,9 @@ export default {
                 purpose: 'any maskable'
             }
         ]
-    }
+    },
+    workbox: {
+        sourcemap: true
+    },
+    registerType: 'autoUpdate',
 }

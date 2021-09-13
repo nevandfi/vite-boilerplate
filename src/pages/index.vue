@@ -1,11 +1,11 @@
 <template>
     <h1>Homepage</h1>
-    <router-view></router-view>
+    <h2>{{ $t('greetings') }}</h2>
 </template>
 
 <script>
 export default {
-    layout: "footer-layout"
+    
 }
 </script>
 

@@ -9,7 +9,7 @@ const baseRoutes = [
     {
         path: '/404',
         name: 'Error:404',
-        component: () => import('/src/pages/404.vue')
+        component: () => import('/src/pages/404.vue'),
     }
 ];
 

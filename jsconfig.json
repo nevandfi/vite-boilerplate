@@ -1,10 +1,10 @@
 {
     "compilerOptions": {
         "paths": {
-            "/*": ["./*"]
+            "/*": ["./*"],
         },
         "baseUrl": "./",
-        "checkJs": true,
+        "checkJs": false,
         "target": "esNext",
         "module": "esnext",
         "moduleResolution": "node",
