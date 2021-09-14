@@ -9,6 +9,7 @@
   "dependencies": {
     "@iconify/iconify": "^2.0.4",
     "@rollup/plugin-alias": "^3.1.5",
+    "animejs": "^3.2.1",
     "fast-glob": "^3.2.7",
     "vue": "^3.2.6",
     "vue-i18n": "^9.1.7",

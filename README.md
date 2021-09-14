@@ -13,4 +13,5 @@ Includes:
 - Vite Vue Dynamic Store
 - Font Loader Setup
 - Purge Icons for Vite
+- Anime JS
 - Sass-flavored CSS 

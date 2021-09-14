@@ -10,6 +10,7 @@ import Components from 'unplugin-vue-components/vite'
 import vueDynamicLayoutsPlugin from './vite_modules/vue-dynamic-layouts'
 import vueDynamicStorePlugin from './vite_modules/vue-dynamic-store'
 import vueI18nSetupPlugin from './vite_modules/vue-i18n-setup';
+import vueAnimeSetup from './vite_modules/vue-anime-setup';
 
 import ViteFonts from 'vite-plugin-fonts'
 import FontsConfig from './config/fonts.config'
@@ -32,6 +33,7 @@ export default defineConfig({
         }),
         vueDynamicStorePlugin(),
         vueI18nSetupPlugin(),
+        vueAnimeSetup(),
         ViteFonts(FontsConfig),
         PurgeIcons(),
     ],
